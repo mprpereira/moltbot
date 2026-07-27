@@ -6,6 +6,7 @@ Docs: https://docs.molt.bot
 Status: beta.
 
 ### Changes
+- Skills: add GoHighLevel (GHL) skill for contacts, pipelines/opportunities, conversations, calendars, and workflow enrollment via API v2, plus a chat menu pattern for driving GHL actions from a conversation.
 - Rebrand: rename the npm package/CLI to `moltbot`, add a `moltbot` compatibility shim, and move extensions to the `@moltbot/*` scope.
 - Commands: group /help and /commands output with Telegram paging. (#2504) Thanks @hougangdev.
 - macOS: limit project-local `node_modules/.bin` PATH preference to debug builds (reduce PATH hijacking risk).
